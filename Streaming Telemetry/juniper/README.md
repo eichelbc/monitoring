@@ -49,8 +49,6 @@ set system services extension service request-response grpc ssl ip-address $tele
 set system services extension service request-response grpc ssl port 32767
 
 
-
-
 ##Upgrading JUNOS:  Steps required if your performing a Junos update on an existing JTI install.
 
 
