@@ -1,0 +1,16 @@
+extension-service {
+    request-response {
+        grpc {
+            clear-text {
+                port 50051;
+            }
+            skip-authentication;
+        }
+    }
+    notification {
+        allow-clients {
+            address 141.142.141.140;
+        }
+    }
+}
+
